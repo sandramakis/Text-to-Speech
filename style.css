@@ -12,7 +12,7 @@ body {
 }
 
 section {
-  margin: 9rem;
+  margin: 9rem 5rem;
   padding: 15px;
   display: grid;
   place-content: center;
@@ -68,4 +68,13 @@ button {
 
 button:hover {
   opacity: 0.9;
+}
+
+footer {
+  background-color: aqua;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
