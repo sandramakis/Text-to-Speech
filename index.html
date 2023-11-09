@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+    <title>Text to Speech</title>
+  </head>
+  <body>
+    <section class="recognition">
+      <a
+        href="https://www.flaticon.com/free-icons/communication"
+        title="communication icons"
+      ></a>
+
+      <header>The Voicinator 1.0</header>
+
+      <select name="voice" id="voices">
+        <option value="">Select a Voice</option>
+      </select>
+
+      <label for="rate">Rate</label>
+      <input type="range" name="rate" min="0" max="3" value="1" step="0.1" />
+
+      <label for="pitch">Pitch</label>
+      <input type="range" name="pitch" min="0" max="3" value="1" step="0.1" />
+
+      <textarea name="text" cols="30" rows="10">
+ Hello, I love JavaScript 👍</textarea
+      >
+
+      <div class="btns">
+        <button id="stop">Stop!</button>
+        <button id="speak">Speak</button>
+      </div>
+    </section>
+  </body>
+</html>
